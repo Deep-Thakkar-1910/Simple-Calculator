@@ -22,7 +22,7 @@ operatorButtons.forEach((button) => {
     made a regex to check if last character of resultDisplay.textContent mathces with operator buttons.
     if it does then remove last character of resultDisplay.textContent and add newly pressed operator button.
 
-    else it works normally by addin whatever is clicked.
+    else it works normally by adding whatever is clicked.
     */
     const regex = /[\/\+\*\-]/;
     const str=resultDisplay.textContent.charAt(resultDisplay.textContent.length-1);
